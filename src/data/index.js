@@ -52,14 +52,14 @@ const portfolio = [
     description:
       "A dynamic e-commerce website using Next.js, Prisma, and DaisyUI, integrated with a Stripe payment gateway. Utilized Framer Motion for engaging animations and Zustand for state management.",
     url: "https://stripeecom-osamas-projects-a711643a.vercel.app/",
-    image: '/project/stripe.png'
+    image: './project/stripe.png'
   },
   {
     name: "IGNITE",
     description:
       "A game search website using the RAWG.io API to display comprehensive video game information. Features include a trending games list, detailed game descriptions, and various categories for exploration.",
     url: "https://osamai8.github.io/home/",
-    image: '/project/ignite.png'
+    image: './project/ignite.png'
   },
 
 ];
