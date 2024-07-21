@@ -30,7 +30,7 @@ const experiences = [
     date: "June 2022 - Present",
     details: [
       "Pioneered the integration of cutting-edge features, such as <span style='color: white;'>real-time data updates</span> and <span style='color: white;'>advanced state management</span>, significantly improving performance and user satisfaction.",
-      "Hatched high-quality educational platform for clients including <span style='color: white;'>Amazon and Capgemini</span>.",
+      "Hatched high-quality educational platform for clients including <span style='color: white;'>Amazon, Crisil and Capgemini</span>.",
       "Expanded my knowledge to include backend technologies such as <span style='color: white;'>Node.js, Express.js, and MongoDB</span>, enhancing my ability to work on full-stack projects.",
     ],
   },

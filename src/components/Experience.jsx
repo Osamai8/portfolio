@@ -17,13 +17,13 @@ const ExperienceCard = ({ experience, onClick, isActive, isMobile }) => {
         <div className="absolute left-0 top-0 bottom-0 w-3 md:w-5 bg-tertiary my-6 sm:block hidden"></div>
       )}
       <h3
-        className={`text-xl lg:text-2xl xl:text-3xl font-bold sm:pl-8 ${isActive || isMobile ? "text-quaternary" : "text-slate-600"
+        className={`text-xl lg:text-2xl xl:text-3xl font-bold sm:pl-8 ${isActive || (isMobile && isActive) ? "text-quaternary" : "text-slate-600"
           }`}
       >
         {experience.title}
       </h3>
       <p
-        className={`text-md lg:text-lg xl:text-2xl sm:font-medium pt-2 sm:pl-8 ${isActive || isMobile ? "text-white" : "text-slate-600"
+        className={`text-md lg:text-lg xl:text-2xl sm:font-medium pt-2 sm:pl-8 ${isActive || (isMobile && isActive) ? "text-white" : "text-slate-600"
           }`}
       >
         {experience.company_name} | {experience.date}
